@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/CodeLudus/Boilerplate-NodeJS#readme",
   "devDependencies": {
-    "@types/express": "^5.0.0",
+    "@types/express": "^4.17.21",
     "@types/jsonwebtoken": "^9.0.7",
     "@types/node": "^22.7.5",
     "@typescript-eslint/eslint-plugin": "^8.8.1",
