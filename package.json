@@ -1,10 +1,10 @@
-
 {
   "name": "boilerplate-nodejs",
   "version": "1.0.0",
   "description": "Este repositorio es tu punto de partida ideal para proyectos de Node.js. Está equipado con herramientas modernas para optimizar y mejorar tu experiencia de desarrollo.",
   "type": "module",
   "scripts": {
+    "format": "prettier --write src"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,7 @@
     "url": "https://github.com/CodeLudus/Boilerplate-NodeJS/issues"
   },
   "homepage": "https://github.com/CodeLudus/Boilerplate-NodeJS#readme",
-  "dependencies": {
-  },
   "devDependencies": {
+    "prettier": "^3.3.3"
   }
 }
