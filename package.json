@@ -4,6 +4,8 @@
   "description": "Este repositorio es tu punto de partida ideal para proyectos de Node.js. Está equipado con herramientas modernas para optimizar y mejorar tu experiencia de desarrollo.",
   "type": "module",
   "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
     "format": "prettier --write src"
   },
   "repository": {
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/CodeLudus/Boilerplate-NodeJS#readme",
   "devDependencies": {
+    "eslint": "^9.12.0",
     "prettier": "^3.3.3"
   }
 }
